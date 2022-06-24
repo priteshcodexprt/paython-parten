@@ -6,4 +6,4 @@ class RailwayForm:
 harryAppliCation= RailwayForm()
 harryAppliCation.name="Harry"
 harryAppliCation.train=" Rajdhani Express"
-harryAppliCation.printData() 
+harryAppliCation.printData()
