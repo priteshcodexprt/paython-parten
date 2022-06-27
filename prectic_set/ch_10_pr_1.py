@@ -6,7 +6,7 @@ class programmer:
                 self.product=product
 
         def getinfo(self):
-                print(f"The name is {self.name} This product name is {self.product}")
+                print(f"The name is :{self.company} programmer is :{self.name} This product name is :{self.product}")
 
 harry=programmer("harry","skype")
 alka=programmer("alka","Goggle")
