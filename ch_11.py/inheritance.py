@@ -1,23 +1,13 @@
-from unicodedata import name
-
-
-class Freelancer:
-    company="Fiver"
-    level=0
-
-    def upgradeLevel(self):
-        self.level=self.level+1
-
 class Employee:
-    company="Visa"
-    eCode=120
+    company="Goggle"
+    def showDetails(self):
+        print("The is on Employee")
 
-class Programmer(Freelancer,Employee):
-    name="Rohit"
-    
+class Programmer(Employee):
+    Language="python"
 
-
-p=Programmer()
-# p.upgradeLevel()
-print(p.company)
-
+    def getLanguage(self):
+        print(f"the language is {self.Language}")
+e=Employee()
+e.showDetails()
+p=Programmer()  
