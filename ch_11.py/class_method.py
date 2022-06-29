@@ -1,13 +1,14 @@
 class Employee:
     company="Camel"
-    Salary=100
-    # location="Rajkot"
-    
+    salary=100
+    location="Delhi"
 
     @classmethod
-    def ChangeSalary(cls,Sal):
-        cls.ChangeSalary=Sal
+    def changeSalary(cls , sal):
+        cls.salary= sal
+        
 
-E=Employee()
-print(E.Salary)
-E.ChangeSalary(455)
+e = Employee()
+print(e.salary)
+e.changeSalary(455)
+print(e.salary)
