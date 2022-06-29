@@ -1,18 +1,18 @@
-class Employee:
-    company="CodexPrt"
-    Level=0
-    def upgradeLevel(self):
-        self.Level=self.Level+1
-        
-class BaseData:
-    company="Visa"
-    eCode=150
+class Employee :
+    salary=1000
+    increment=1.5
 
+    @property
+    def salaryAfterIncrement(self):
+        return self.salary*self.increment
 
-class programmer(Employee,BaseData):
-    name="Harry"
+    @salaryAfterIncrement.setter
+    def salaryAfterIncrement(self,sai):
+        self.increment=sai/self.salary
 
-
-p=programmer()
-# p.upgradeLevel()
-print(p.company)
+e=Employee()
+print(e.salaryAfterIncrement)
+print(e.increment)
+e.salaryAfterIncrement=2000
+print(e.salaryAfterIncrement)
+print(e.increment)
