@@ -6,10 +6,16 @@ class complex:
     def __add__ (self,c):
         return complex(self.real+c.real,self.imaginary+c.imaginary )
 
+    def __mul__(self,c):
+        mulReal=self.real+c.real - self.imaginary*c.imaginary
+        mulImg= self.real*c.real+self.imaginary*c.imaginary
+        return complex(mulReal,mulImg)
+
     def __str__(self) :
         return f"{self.real}+{self.imaginary}i"
 
 
-c1=complex(1,4)
-c2=complex(8,5)
+c1 = complex (3 , 2)
+c2 = complex (1 , 7)
 print(c1+c2)
+print(c1*c2)
