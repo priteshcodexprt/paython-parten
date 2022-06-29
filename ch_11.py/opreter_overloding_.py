@@ -26,10 +26,16 @@ class number:
 
 n1=number(499)
 n2=number(685)
+
+
 sum=n1+n2
 print(sum)
+
+
 mul=n1*n2
 print(mul)
+
+
 sub=n1-n2
 print(sub)
 truediv= n1/n2
