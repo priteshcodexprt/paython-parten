@@ -13,11 +13,12 @@ class Freelancer(person):
     otherSalary=88888
 
     def showDetails (self):
+         print(f"This country name is : {self.country}\n")
          print(f"This city name is : {self.city}\n")
          print(f"This company name is : {self.company}\n")
          print(f"This salary name is : {self.salary}\n")
          print(f"This  otherSalary name is : {self.otherSalary}\n")
-         print(f"This country name is : {self.country}\n")
+         
 
     @property
     def number (self):
@@ -26,7 +27,7 @@ class Freelancer(person):
 
 
 class programmer:
-    language="python"
+    language="English"
 
 def language (self):
     print(f"programmer language is {self.language}")
