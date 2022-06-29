@@ -14,6 +14,11 @@ class number:
         return f"Dismal number : {self.num}"
 
 
+    def __len__(self):
+        return 1
+
+
 
 n=number(input("Enter your Dismal Number :"))
 print(n)
+print(len(n))
