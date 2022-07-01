@@ -42,11 +42,11 @@ class programmer(Employee):
 
 
 
-# p=Person()
-# p.takeBreath()
+p=Person()
+p.takeBreath()
 e=Employee()
-# print(e.company)
-# e.takeBreath()
-# pr=programmer()
-# print(pr.company)
-# print(p.country)
+print(e.company)
+e.takeBreath()
+pr=programmer()
+print(pr.company)
+print(p.country)
