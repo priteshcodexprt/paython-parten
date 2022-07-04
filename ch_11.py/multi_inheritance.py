@@ -1,5 +1,5 @@
 class Freelancer:
-    company="Fiver"
+    company="FiFa"
     level=0
 
     def upgradeLevel(self):
