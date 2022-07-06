@@ -1,4 +1,6 @@
-a = input("Enter first number:")
-a = int(a)
-square = (a*a)
-print("The square of this number is:",square)
+
+thisDict={}
+print(thisDict)
+thisDict["AAAAA"]="AAAAA"
+
+print(thisDict)
