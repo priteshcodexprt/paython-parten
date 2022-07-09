@@ -1,73 +1,81 @@
-#print1
-
-
-
 myDict={}
-print(myDict)
-#print2
-myDict2 = {
+print("PRINT1\n",myDict)
+
+myDict={
     "AAAAA": "AAAAA",
     "BBBBB": {},
     "CCCCC": {},
     "DDDDD": {}
 }
-print("PRINT2\n",myDict2)
-#print3
-myDict3 = {
-    "AAAAA": "AAAAA",
-    "BBBBB": {
-    "CCCC":"CCCC",
-    "DDDD":"DDDD"
-    }
-}
-print("PRINT3\n",myDict3)
-#PRINT4
-myDict4={
+myDict.pop("DDDDD")
+
+print("PRINT2\n",myDict)
+myDict={
     "AAAAA": "AAAAA",
     "BBBBB": {
         "CCCC": "CCCC",
         "DDDD": "DDDD"
     },
-    "CCCC":{
-        "DDDD":"DDDD",
-        "EEEE":{
-            "FFF":"FFF"
+    "CCCCC": {
+        "DDDD": "DDDD",
+        "EEEE": {}
+    },
+    "DDDDD": {
+        "EEEE": "EEEE",
+        "FFFF": {},
+        "GGGG": {}
+    }
+}
+myDict.pop("DDDDD")
+myDict.pop("DDDD")
+print("PRINT3",myDict)
+myDict={
+    "AAAAA": "AAAAA",
+    "BBBBB": {
+        "CCCC": "CCCC",
+        "DDDD": "DDDD"
+    },
+    "CCCCC": {
+        "DDDD": "DDDD",
+        "EEEE": {
+            "FFF": "FFF"
         }
     },
-    "DDDDD":{
-        "EEEE":"EEEE",
-        "FFFF":{
-            "GGG":"GGG"
+    "DDDDD": {
+        "EEEE": "EEEE",
+        "FFFF": {
+            "GGG": "GGG"
         },
-        "GGGG":{
-            "HHH":{}
+        "GGGG": {
+            "HHH": {}
         }
     }
 }
-print("PRINT4\n",myDict4)
-#PRINT5
-myDict5={
-    "AAAAA":"AAAAA",
-    "BBBBB":{
-        "CCCC":"CCCC",
-        "DDDD":"DDDD",
+myDict.pop("DDDDD")
+print("PRINT4\n",myDict)
+myDict={
+    "AAAAA": "AAAAA",
+    "BBBBB": {
+        "CCCC": "CCCC",
+        "DDDD": "DDDD"
     },
-    "CCCC":{
-        "DDDD":"DDDD",
-        "EEEE":{
-            "FFF":"FFF"
+    "CCCCC": {
+        "DDDD": "DDDD",
+        "EEEE": {
+            "FFF": "FFF"
         }
     },
-    "DDDDD":{
-        "EEEE":"EEEE",
-        "FFFF":{
-            "GGG":"GGG"
+    "DDDDD": {
+        "EEEE": "EEEE",
+        "FFFF": {
+            "GGG": "GGG"
         },
-        "GGGG":{
-            "HHH":{
-                "III":{}
+        "GGGG": {
+            "HHH": {
+                "III": "III"
             }
         }
     }
 }
-print("PRINT5\n",myDict5)
+myDict.pop("DDDDD")
+print("PRINT5\n",myDict)
