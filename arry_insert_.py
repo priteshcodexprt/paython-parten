@@ -2,8 +2,7 @@
 listData = [89, 56, 90, 34, 89, 12] 
 
 # Insert data in the 2nd position
-listData.insert(2, 23)
-listData.insert(4,45)
+listData.sort
 
 # Displaying list after inserting
 print("The list elements are")
