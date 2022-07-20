@@ -9,6 +9,6 @@ root.title(50 * blank_space +"vs code calculation")
 root.resizable(width=False ,height= False)
 root.geometry("438x573+460+40")
 
-coverFrame=Frame(root,20,relief=RIDGE)
-coverFrame.grid()
+# coverFrame=Frame(root,20,relief=RIDGE)
+# coverFrame.pack()
 root.mainloop()
